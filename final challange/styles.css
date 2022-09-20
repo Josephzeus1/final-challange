@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.section-one{
+  background-color: #3b4050;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+.top{
+  font-size: 60px;
+  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+
+}
+span{
+  color:#a59678;
+}
+.container{
+  /* max-width: 1230px; */
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+.one{
+  align-items: flex-end;
+  
+}
+.learn{
+  width: 45%;
+  /* align-content: bottom; */
+}
+
+.btn{
+  background-color: #a59678;
+  padding: .7em;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: bold;
+
+}
+.section-two{
+  background-color: #e8e9ed;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+.section{
+  width: 30%;
+}
+.h3{
+  color:#a59678 ;
+  font-family: 'Oswald', sans-serif;
+
+}
+.section-three{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.not-hard{
+  width: 60%;
+}
+.breakit{
+  width: 30%;
+}
+img{
+  width: 100%;
+}
+.side{
+  padding-top:1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  background-color: #3b4050;
+  margin-top: 10px;
+  color: white;
+  text-align: center ;
+  padding-left: ;
+}
+.three{
+  padding-top: 3em;
+}
+.section-four{
+  background-color: #3b4050;
+  color:#a59678 ;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+ul{
+  list-style: none;
+  margin: 0;
+
+}
+li{
+  padding: 1em;
+  margin-top: 0;
+}
+.foot-head{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 40px;
+
+}
+.hi{
+  width: 25%;
+  /* text-align: center; */
+}
+.him{
+  width: 40%;
+}
+.fot{
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+@media (max-width:1000px) {
+ .threes{
+  display: block;
+ }
+ .breakit{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ }
+ .side{
+  margin: 5px;
+  width: 33%;
+ }
+ .not-hard{
+  width: 100%;
+ }
+}
+@media (max-width:600px) {
+  .one{
+    display: block;
+  }
+  .learn{
+    width: 100%;
+    text-align: center;
+  }
+  .top{
+    padding-bottom: 1em;
+  }
+  .two{
+    display: block;
+  }
+  .section{
+    width: 100%;
+  }
+  .breakit{
+    display: block;
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    margin: 5px;
+    
+  }
+  .side{
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    margin-bottom: 2px;
+    margin: 0 auto;
+   
+  }
+  .bug{
+    /* width: 100%; */
+    /* border: 2px solid white; */
+    
+  }
+  
+}
